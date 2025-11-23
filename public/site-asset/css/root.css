@@ -1,0 +1,43 @@
+:root {
+    /* Primary Color Variables */
+    --primary-color: #1a1a1a;
+    --primary-color-light: #2c2c2c;
+    --primary-color-dark: #0f0f0f;
+    --primary-gradient: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color-light) 100%);
+    
+    /* Golden Accent Color */
+    --golden-color: #d4af37;
+    --golden-light: #f4d467;
+    --golden-dark: #b8941f;
+    --golden-gradient: linear-gradient(135deg, var(--golden-color) 0%, var(--golden-light) 100%);
+    
+    /* Text Colors */
+    --text-primary: var(--primary-color);
+    --text-light: #ffffff;
+    --text-golden: var(--golden-color);
+}
+
+.luxury-header {
+    display: none !important;
+}
+
+.mobile-header {
+    display: block !important;
+}
+
+body.homepage .mobile-header{
+    background: unset;
+    margin-bottom: -101px;
+    z-index: 9;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    body.homepage .mobile-header {
+        display: none !important;
+    }
+
+    body.homepage .luxury-header {
+        display: block !important;
+    }
+}

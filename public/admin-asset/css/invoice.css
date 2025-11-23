@@ -1,0 +1,477 @@
+/* Invoice Styles - Brightness Fashion - Compact A4 Design */
+/* Using site colors from admin theme */
+
+:root {
+    --primary-color: #1a1a1a;
+    --primary-color-light: #2c2c2c;
+    --primary-color-dark: #0f0f0f;
+    --golden-color: #d4af37;
+    --golden-light: #f4d467;
+    --golden-dark: #b8941f;
+    --secondary-color: #858796;
+    --success-color: #1cc88a;
+    --info-color: #36b9cc;
+    --warning-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --light-color: #f8f9fc;
+    --dark-color: #5a5c69;
+    --white: #fff;
+    --gray: #858796;
+    --gray-light: #f8f9fc;
+    --border-color: #e3e6f0;
+    --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-family-serif: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+}
+
+/* Global Invoice Styles */
+.invoice-body {
+    font-family: var(--font-family-base);
+    background-color: var(--gray-light);
+    color: var(--dark-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.invoice-container {
+    max-width: 210mm;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0.5rem 1rem rgba(18, 38, 63, 0.03);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 30px);
+}
+
+/* Invoice Header */
+.invoice-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.company-name {
+    font-family: var(--font-family-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 0.5px;
+}
+
+.site-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.company-details {
+    font-family: var(--font-family-base);
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.company-details i {
+    color: var(--primary-color);
+    width: 14px;
+    margin-right: 6px;
+}
+
+.invoice-title h2 {
+    font-family: var(--font-family-serif);
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.invoice-meta {
+    margin-bottom: 12px;
+}
+
+.invoice-number {
+    font-family: var(--font-family-base);
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    letter-spacing: 0.5px;
+}
+
+.invoice-date {
+    font-family: var(--font-family-base);
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+/* Customer Info Section */
+.customer-info-section {
+    margin-bottom: 20px;
+}
+
+.info-card {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.address-title {
+    font-family: var(--font-family-serif);
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.address-content {
+    font-family: var(--font-family-base);
+    color: var(--dark-color);
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.company-icon {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+/* Order Summary Section - REMOVED */
+
+/* Status Colors */
+.status-pending { color: var(--warning-color) !important; }
+.status-processing { color: var(--info-color) !important; }
+.status-shipped { color: var(--primary-color) !important; }
+.status-delivered { color: var(--success-color) !important; }
+.status-cancelled { color: var(--danger-color) !important; }
+
+.payment-pending { color: var(--warning-color) !important; }
+.payment-paid { color: var(--success-color) !important; }
+.payment-failed { color: var(--danger-color) !important; }
+.payment-refunded { color: var(--info-color) !important; }
+
+/* Order Items Section */
+.order-items-section {
+    margin-bottom: 20px;
+}
+
+.invoice-table {
+    font-family: var(--font-family-base);
+    width: 100%;
+    margin: 0;
+    background: var(--white);
+    border-collapse: collapse;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 0.95rem;
+}
+
+.invoice-table thead {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.invoice-table thead th {
+    font-family: var(--font-family-base);
+    padding: 14px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 0.85rem;
+    border: none;
+}
+
+.invoice-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.invoice-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.invoice-table td {
+    font-family: var(--font-family-base);
+    padding: 12px;
+    vertical-align: top;
+    border: none;
+    font-weight: 400;
+}
+
+.sku-cell {
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+}
+
+/* Order Totals */
+.order-totals-section {
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.totals-table {
+    font-family: var(--font-family-base);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.totals-table td {
+    font-family: var(--font-family-base);
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.totals-table tr:last-child td {
+    border-bottom: none;
+}
+
+.totals-table .grand-total {
+    background: var(--primary-color);
+    color: var(--white);
+    font-family: var(--font-family-serif);
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.totals-table .grand-total td {
+    padding: 12px;
+    border-bottom: none;
+}
+
+/* Notes Section - REMOVED */
+
+/* Signature Section */
+.signature-section {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.signature-box {
+    padding: 20px 10px;
+}
+
+.signature-line {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 8px;
+    height: 60px;
+}
+
+.signature-label {
+    display: none; /* Hide signature labels as requested */
+}
+
+/* Footer */
+.invoice-footer {
+    border-top: 1px solid var(--border-color);
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.invoice-footer small {
+    font-family: var(--font-family-base);
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Table alignment fixes */
+.invoice-table th:nth-child(3),
+.invoice-table td:nth-child(3),
+.invoice-table th:nth-child(5),
+.invoice-table td:nth-child(5) {
+    text-align: right;
+}
+
+.invoice-table th:nth-child(4),
+.invoice-table td:nth-child(4) {
+    text-align: center;
+}
+
+/* Ensure proper spacing for print */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-3, .col-4, .col-5, .col-6, .col-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Print Styles */
+@media print {
+    /* Reset margins and padding for print */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    body, .invoice-body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background: white !important;
+        background-image: none !important;
+        font-size: 12px !important;
+        line-height: 1.4 !important;
+    }
+    
+    .invoice-container {
+        margin: 0 !important;
+        padding: 15mm !important;
+        max-width: none !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background: white !important;
+        background-image: none !important;
+        page-break-inside: avoid;
+        min-height: calc(100vh - 40mm);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Header adjustments for print */
+    .invoice-header {
+        margin-bottom: 15px !important;
+        padding-bottom: 10px !important;
+    }
+    
+    .company-name {
+        font-size: 1.6rem !important;
+    }
+    
+    .invoice-title h2 {
+        font-size: 2.2rem !important;
+    }
+    
+    .site-icon {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+    /* Table adjustments for print */
+    .invoice-table {
+        font-size: 11px !important;
+        margin-bottom: 15px !important;
+    }
+    
+    .invoice-table thead th {
+        padding: 8px 6px !important;
+        font-size: 10px !important;
+        background: var(--primary-color) !important;
+        color: white !important;
+    }
+    
+    .invoice-table td {
+        padding: 6px !important;
+        font-size: 11px !important;
+    }
+    
+    /* Totals section for print */
+    .order-totals-section {
+        margin-bottom: 15px !important;
+        flex-grow: 1;
+    }
+    
+    .totals-table td {
+        padding: 5px 0 !important;
+        font-size: 11px !important;
+    }
+    
+    .totals-table .grand-total {
+        background: var(--primary-color) !important;
+        color: white !important;
+        font-size: 13px !important;
+    }
+    
+    .totals-table .grand-total td {
+        padding: 8px !important;
+    }
+    
+    /* Signature section adjustments */
+    .signature-section {
+        margin-bottom: 15px !important;
+        margin-top: 20px !important;
+        padding-top: 50px !important;
+    }
+    
+    /* Footer - ensure it stays at bottom */
+    .invoice-footer {
+        margin-top: auto !important;
+        padding-top: 10px !important;
+        margin-bottom: 0 !important;
+        border-top: 1px solid var(--border-color) !important;
+        position: relative;
+        bottom: 0;
+    }
+    
+    .invoice-footer small {
+        font-size: 11px !important;
+        text-align: center !important;
+        display: block !important;
+        font-weight: 500 !important;
+    }
+    
+    /* Hide unnecessary elements in print */
+    .no-print {
+        display: none !important;
+    }
+    
+    /* Ensure page breaks */
+    .invoice-header, .order-items-section, .order-totals-section {
+        page-break-inside: avoid;
+    }
+    
+    /* Force the footer to bottom of page */
+    @page {
+        margin: 15mm;
+        size: A4;
+    }
+    
+    /* Adjust spacing for better print layout */
+    .company-details {
+        font-size: 10px !important;
+        line-height: 1.5 !important;
+    }
+    
+    .address-content {
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+    
+    .invoice-number {
+        font-size: 12px !important;
+    }
+    
+    .invoice-date {
+        font-size: 11px !important;
+    }
+    
+    /* Remove background colors and images */
+    .invoice-body, .invoice-container, .invoice-header, .order-items-section, .order-totals-section, .invoice-footer {
+        background: white !important;
+        background-image: none !important;
+        background-color: white !important;
+    }
+}

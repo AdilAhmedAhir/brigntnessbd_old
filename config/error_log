@@ -1,0 +1,84 @@
+[11-Sep-2025 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/cache.php on line 18
+[11-Sep-2025 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/auth.php on line 17
+[11-Sep-2025 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/session.php on line 21
+[11-Sep-2025 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/mail.php on line 17
+[11-Sep-2025 23:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/services.php on line 18
+[11-Sep-2025 23:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/app.php on line 16
+[11-Sep-2025 23:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/filesystems.php on line 16
+[11-Sep-2025 23:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/database.php on line 19
+[11-Sep-2025 23:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/queue.php on line 16
+[15-Sep-2025 22:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/mail.php on line 17
+[15-Sep-2025 22:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/services.php on line 18
+[15-Sep-2025 22:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/queue.php on line 16
+[15-Sep-2025 22:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/cache.php on line 18
+[15-Sep-2025 22:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/app.php on line 16
+[15-Sep-2025 22:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/session.php on line 21
+[15-Sep-2025 22:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/filesystems.php on line 16
+[15-Sep-2025 22:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/database.php on line 19
+[15-Sep-2025 22:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/auth.php on line 17
+[23-Oct-2025 18:22:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/cache.php on line 18
+[23-Oct-2025 18:22:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/session.php on line 21
+[23-Oct-2025 18:22:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/brigkxiq/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/brigkxiq/public_html/config/queue.php on line 16

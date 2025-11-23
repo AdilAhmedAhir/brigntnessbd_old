@@ -1,0 +1,10 @@
+.container-fluid{
+    padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+    .sidebar {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+    }
+}
